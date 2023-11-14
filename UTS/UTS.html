@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS</title>
+    <link rel="stylesheet" href="uts.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Form Registrasi Tempat Rekreasi Wisata</legend>
+    <form enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>
+                    <label for="nama_tempat_wisata">Nama Tempat Wisata:</label></td>
+                <td>
+                    <textarea name="nama_tempat_wisata" id="nama_tempat_wisata" cols="30" rows="0"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="jenis_wisata">Jenis Wisata</label>
+                </td>
+                
+                <td>
+                     <select name="jenis_wisata" id="jenis wisata">
+                        <option value="">Taman</option>
+                        <option value="danau">Danau</option>
+                        <option value="outdoor">Outdoor</option>
+                        <option value="indoor">Indoor</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="deskripsi_wisata">Deskripsi Wisata</label>
+                </td>
+                
+                <td>
+                    <textarea name="deskripsi_wisata" id="deskripsi_wisata" cols="30" rows="3"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="kontak_person">Kontak Person :</label></td>
+                <td>
+                    <input type="text" name="kontak_person" id="kontak_person">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="telefon">No HP/Telepon :</label>
+                </td>
+            
+                <td>
+                    <input type="number" name="telefon" id="telefon">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email :</label></td>
+                <td>
+                    <input type="text" name="email" id="email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="alamat_web">Alamat Web :</label></td>
+                <td>
+                    <input type="text" name="alamat_web" value="https://">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="alamat_lengkap">Alamat Lengkap :</label>
+                </td>
+                
+                <td>
+                    <textarea name="alamat_lengkap" id="alamat_lengkap" cols="30" rows="2"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="latitude_dan_longitude">Latitude,Longitude :</label></td>
+                <td>
+                    <input type="text" name="latitude_dan_longitude" id="latitude_dan_longitude">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                   <button type="daftar" class="btn-blue">Daftar</button> 
+                   <button type="batal" class="btn-red">Batal</button> 
+                </td>
+            </tr>
+
+        </table>
+
+    </fieldset>
+    </form>
+</body>
+</html>

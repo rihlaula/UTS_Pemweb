@@ -1,0 +1,46 @@
+
+label{
+    font-size: 14px;
+    display: block;
+    text-align: end;
+}
+
+body{
+    text-align: center;
+    text-decoration: none;
+}
+
+table {
+    text-align: left;
+}
+
+fieldset{
+   display: inline-block; 
+   border: 2px solid black;
+}
+
+button{
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+input, select, textarea{
+    border: solid black;
+}
+
+table{
+    width: fit-content;
+    margin: 20px auto;
+}
+
+legend{
+    text-align: left;
+}
+
+.btn-blue{
+    background-color: cornflowerblue;
+}
+
+.btn-red{
+    background-color: crimson;
+}
